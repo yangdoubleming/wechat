@@ -1,0 +1,32 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.flex-wrp{
+  display:flex;
+  flex-direction: rows;
+  height:160rpx;
+  width:100%;
+  align-items: center;
+  border: red 1rpx solid;
+}
+.img-item{
+  height:80rpx;
+  width:80rpx;
+  border: #D9D9D9 1rpx solid;
+  border-radius: 50%;
+}
+.flex-item{
+    height:100rpx;
+    width:20px;
+}
+.bc_green{
+  background-color: green;
+}
+.bc_red{
+  background-color: red;
+}

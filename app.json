@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/company/company",
+    "pages/index/index",
+    "pages/mine/mine"
+  ],
+  "tabBar": {
+    "selectedColor": "#ffa315",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/bottom_icon/home.png",
+        "selectedIconPath": "pages/images/bottom_icon/home_sel.png"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "text": "公司",
+        "iconPath": "pages/images/bottom_icon/company.png",
+        "selectedIconPath": "pages/images/bottom_icon/company_sel.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/images/bottom_icon/person.png",
+        "selectedIconPath": "pages/images/bottom_icon/person_sel.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "51金融圈",
+    "navigationBarTextStyle":"black"
+  }
+}
